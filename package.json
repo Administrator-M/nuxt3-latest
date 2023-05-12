@@ -1,0 +1,19 @@
+{
+  "name": "nuxt3",
+  "private": true,
+  "scripts": {
+    "local": "nuxt dev --dotenv env/.env.local",
+    "test": "nuxt dev --dotenv env/.env.test",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.4.1",
+    "@nuxt/image-edge": "^1.0.0-28020728.5df24eb",
+    "@types/node": "^18",
+    "nuxt": "^3.4.3"
+  }
+}
