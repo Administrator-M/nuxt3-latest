@@ -1,11 +1,42 @@
-# Git 提交格式
+# Nuxt 3 Minimal Starter
 
-## 关于提交信息的格式，应遵循以下的规则：
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-+ chore: 其他修改, 比如构建流程, 依赖管理
-+ docs: 文档修改
-+ fix: 修改 bug
-+ feat: 新特性，添加功能
-+ refactor: 代码重构
-+ style: 代码格式修改, 注意不是 css 修改
-+ test: 测试用例修改
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
