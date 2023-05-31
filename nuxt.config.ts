@@ -1,12 +1,10 @@
-import path from "path";
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
   // 第三方模块
-  modules: ["@nuxt/image-edge", "@nuxt/devtools"],
+  modules: ["@nuxt/devtools", "@nuxt/image-edge", "@vexip-ui/nuxt"],
   app: {
     head: {
       style: [{ children: "* { margin: 0; padding: 0;}" }],
@@ -29,5 +27,9 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  // 第三方模块 [@vexip-ui/nuxt] 配置项
+  vexipUI: {
+    importDarkTheme: true,
   },
 });
